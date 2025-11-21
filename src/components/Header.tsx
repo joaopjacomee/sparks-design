@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import sparks from "@/img/sparks.png";
 
 const Header = () => {
   const scrollToSection = (id: string) => {
@@ -16,7 +15,7 @@ const Header = () => {
         {/* LOGO */}
         <div className="flex items-center">
           <img
-            src={sparks}
+            src="./src/img/sparks.png"
             alt="Sparks Design Logo"
             className="h-8 w-auto"
           />
