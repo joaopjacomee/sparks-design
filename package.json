@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joaopjacome.github.io/sparks-design/",
+  "homepage": "https://joaopjacomee.github.io/sparks-design/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

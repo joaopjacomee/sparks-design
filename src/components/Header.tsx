@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Zap } from "lucide-react";
 
 const Header = () => {
   const scrollToSection = (id: string) => {
@@ -9,16 +10,11 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-glass bg-background/80 border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        
-        {/* LOGO */}
-        <div className="flex items-center">
-          <img
-            src="./src/img/sparks.png"
-            alt="Sparks Design Logo"
-            className="h-8 w-auto"
-          />
+        <div className="flex items-center gap-2">
+          <Zap className="w-6 h-6 text-primary" fill="currentColor" />
+          <span className="text-xl font-bold text-foreground">Sparks Design</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
