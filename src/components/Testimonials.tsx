@@ -2,23 +2,27 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
 
+import samuelImg from "@/img/samuel.png";
+import ffmensImg from "@/img/ffmens.jpg";
+import nutrimaxxImg from "@/img/nutrimaxx.jpg";
+
 const testimonials = [
   {
     name: "Samuel Siqueira",
     company: "Samuel Siqueira | Advocacia & Consultoria Jurídica",
-    avatar: "./src/img/samuel.png",
+    avatar: samuelImg,
     text: "Design criativo, moderno e alinhado exatamente ao que eu precisava. Recomendo!",
   },
   {
     name: "Felipe Fernandes",
     company: "FF Mens Collection",
-    avatar: "./src/img/ffmens.jpg",
+    avatar: ffmensImg,
     text: "Profissional atencioso, excelente comunicação e um trabalho visual impecável.",
   },
   {
     name: "Carlos David",
     company: "Nutrimaxx",
-    avatar: "./src/img/nutrimaxx.jpg",
+    avatar: nutrimaxxImg,
     text: "Atendimento excepcional e entrega rápida. O resultado realmente ficou sensacional.",
   },
 ];
@@ -48,14 +52,17 @@ const Testimonials = () => {
                     <Star key={i} className="w-5 h-5 fill-primary text-primary" />
                   ))}
                 </div>
+
                 <p className="text-muted-foreground leading-relaxed italic">
                   "{testimonial.text}"
                 </p>
+
                 <div className="flex items-center gap-4 pt-4">
                   <Avatar>
                     <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
                     <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                   </Avatar>
+
                   <div>
                     <p className="font-semibold text-foreground">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.company}</p>
