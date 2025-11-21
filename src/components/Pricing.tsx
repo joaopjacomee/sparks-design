@@ -45,7 +45,7 @@ const plans = [
     featured: true,
     features: [
       "Tudo dos planos anteriores +",
-      "Vídeos ilimitados (marcar dia de gravação com antecedência",
+      "Vídeos ilimitados (marcar dia de gravação com antecedência)",
       "Criação de modelos prontos para stories",
       "Serviço de Gestão de Tráfego inclusa (verba de anúncio separada, você decide o quanto investir)",
     ],

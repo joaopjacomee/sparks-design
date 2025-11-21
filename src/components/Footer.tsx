@@ -38,7 +38,7 @@ const Footer = () => {
           </nav>
 
           <p className="text-muted-foreground text-sm">
-            © 2025 Sparks Design. Todos os direitos reservados.
+            © 2025 <span className="text-primary">Sparks Design</span>. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -32,7 +32,7 @@ const Contact = () => {
             Vamos conversar?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Entre em contato e transforme suas ideias em realidade
+            Entre em contato e transforme suas ideias em <span className="text-primary">realidade</span>!
           </p>
         </div>
 

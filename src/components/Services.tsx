@@ -15,7 +15,7 @@ const services = [
   {
     icon: TrendingUp,
     title: "Tráfego Pago",
-    description: "Estratégias de anúncios que geram resultados reais e maximizam seu ROI.",
+    description: "Estratégias de anúncios que geram resultados reais.",
   },
 ];
 
@@ -28,7 +28,7 @@ const Services = () => {
             O que fazemos
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Soluções completas para transformar sua presença digital
+            Soluções completas para transformar sua <span className="text-primary">presença digital</span>.
           </p>
         </div>
 

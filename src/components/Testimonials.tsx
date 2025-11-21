@@ -13,7 +13,7 @@ const testimonials = [
     name: "Felipe Fernandes",
     company: "FF Mens Collection",
     avatar: "./src/img/ffmens.jpg",
-    text: "ProfissionaL atencioso, excelente comunicação e um trabalho visual impecável.",
+    text: "Profissional atencioso, excelente comunicação e um trabalho visual impecável.",
   },
   {
     name: "Carlos David",
