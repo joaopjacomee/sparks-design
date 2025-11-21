@@ -40,7 +40,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-primary/50 text-foreground hover:bg-primary/10 font-semibold"
-              onClick={() => window.open("https://wa.me/55889921751396?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Sparks%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20servi%C3%A7o", "_blank")}
+              onClick={() => window.open("https://wa.me/5588921751396?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Sparks%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os.", "_blank")}
             >
               <MessageCircle className="mr-2 w-4 h-4" />
               FALAR COM ESPECIALISTA
