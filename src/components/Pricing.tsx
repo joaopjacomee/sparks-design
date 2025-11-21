@@ -103,7 +103,7 @@ const Pricing = () => {
                       ? "bg-primary text-primary-foreground hover:bg-primary/90"
                       : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
                   }`}
-                  onClick={() => window.open("https://wa.me/5511999999999", "_blank")}
+                  onClick={() => window.open("https://wa.me/55889921751396?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Sparks%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20servi%C3%A7o", "_blank")}
                 >
                   CONTRATAR
                 </Button>
